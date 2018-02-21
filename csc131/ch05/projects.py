@@ -4,7 +4,7 @@ Missouri State University, Spring 2018
 
 This module contains solutions to the problems found at the end of Chapter 5.
 
-File: problems.py
+File: projects.py
 """
 
 from string import punctuation
