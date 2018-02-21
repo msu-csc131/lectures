@@ -37,7 +37,7 @@ def decimal_to_rep(decimal: int, base: int) -> str:
 
 
 def problem5_6() -> None:
-    """Demonstrates the solution to Problem 5.6"""
+    """Demonstrates the solution to Project 5.6"""
     print("{} in decimal is:     {}".format(10, decimal_to_rep(10, 10)))
     print("{} in octal is:       {}".format(10, decimal_to_rep(10, 8)))
     print("{} in binary is:      {}".format(10, decimal_to_rep(10, 2)))
@@ -45,6 +45,7 @@ def problem5_6() -> None:
 
 
 def problem5_7(in_name: str = 'input.txt') -> None:
+    """Demonstrates the solution to Project 5.7"""
     # Take the input file name
     if in_name is None:
         in_name = input("Enter the input file name: ")
@@ -57,14 +58,15 @@ def problem5_7(in_name: str = 'input.txt') -> None:
     for line in input_file:
         words = line.split()
         for word in words:
-            if word.lower().strip(punctuation) not in unique_words:
-                unique_words.append(word.lower().strip(punctuation))
+            word = word.lower().strip(punctuation)
+            if word not in unique_words:
+                unique_words.append(word)
     unique_words.sort()
 
     # Prints the unique words
     for word in unique_words:
         print(word)
-    print("It looks like there were {} unique words in {}.".format(len(unique_words), in_name))
+    print("\nIt looks like there were {} unique words in {}.".format(len(unique_words), in_name))
 
 
 def main() -> None:
