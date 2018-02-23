@@ -7,5 +7,7 @@
         "*_test.py"
     ],
     "python.unitTest.unittestEnabled": true,
-    "python.linting.enabled": false
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintEnabled": false
 }
