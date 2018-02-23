@@ -2,7 +2,8 @@
 CSC131 - Computational Thinking
 Missouri State University, Spring 2018
 
-Unit test suite for exam1 module; see https://docs.python.org/3/library/unittest.html
+Unit test suite for exam1 module
+see https://docs.python.org/3/library/unittest.html
 
 File: exam1_test.py
 """
@@ -11,6 +12,7 @@ from exam1 import big_unique_words
 from exam1 import sum_data_in_file
 from exam1 import get_filtered_list
 from exam1 import get_data_file_name
+
 
 class TestExam1Module(unittest.TestCase):
     """
