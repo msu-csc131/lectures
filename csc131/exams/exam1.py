@@ -4,6 +4,7 @@ Missouri State University, Spring 2018
 
 File: Exam1.py
 """
+from breezypythongui import EasyFrame
 from functools import reduce
 from string import punctuation
 from turtle import Screen
@@ -152,8 +153,38 @@ def question_4() -> None:
     draw_robot_head(Turtle(), 100)
 
 
+class TemperatureConverter(EasyFrame):
+    """A termperature conversion program."""
+    def __init__(self):
+        """Sets up the window and widgets."""
+        EasyFrame.__init__(self, title="Temperature Converter")
+
+        # Label and field for Celsius
+        self.addLabel(text="Celsius", row=0, column=0)
+        self.celsiusField = self.addFloatField(value=0.0, row=1, column=0,
+                                               precision=2)
+
+        # Label and field for Fahrenheit
+        self.addLabel(text="Fahrenheit", row=0, column=1)
+        self.fahrField = self.addFloatField(value=32.0, row=1, column=1,
+                                            precision=2)
+
+        # Celsius to Fahrenheit button
+        self.addButton(text=">>>>", row=2, column=0, command=self.computeFahr)
+
+        # Fahrenheit to Celsius button
+        self.addButton(text="<<<<", row=2, column=1,
+                       command=self.computeCelsius)
+
+    def computeCelsius():
+        pass
+
+    def computeFahr():
+        pass
+
+
 def question_5() -> None:
-    pass
+    TemperatureConverter().mainloop()
 
 
 def main() -> None:
