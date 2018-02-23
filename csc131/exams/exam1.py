@@ -23,9 +23,11 @@ def get_data_file_name(file_name: str = "q1.dat") -> str:
 
 def big_unique_words(input_file_name: str) -> int:
     """
-    Compute the number of unique words greater than length 5 found in the given file.
+    Compute the number of unique words greater than length 5 found in the
+    given file.
     :param input_file_name: the file to interrogate
-    :return The number of unique words greater than length 5 found in the give file is returned.
+    :return The number of unique words greater than length 5 found in the give
+    file is returned.
     """
     unique_words = []
     with open(input_file_name, 'r') as input_file:
@@ -33,8 +35,8 @@ def big_unique_words(input_file_name: str) -> int:
     for word in contents.split():
         # translate any punctuation which might give a deceptively long length
         translation_table = {ord(x): None for x in punctuation}
-        # consider only the lowercase versions of the word so we don't treat different 
-        # cases as unique words
+        # consider only the lowercase versions of the word so we don't treat
+        # different cases as unique words
         word = word.translate(translation_table).lower()
         if len(word) > 5:
             if word not in unique_words:
@@ -47,12 +49,14 @@ def question_1() -> None:
     Demonstrate use of question 1 solution.
     :return None
     """
-    print("big_unique_words(\"q1.dat\") = {}".format(big_unique_words(get_data_file_name("q1.dat"))))
+    print("big_unique_words(\"q1.dat\") = {}"
+          .format(big_unique_words(get_data_file_name("q1.dat"))))
 
 
 def sum_data_in_file(input_file_name: str) -> int:
     """
-    A solution to question 2 that seeks to find the sum of the contents of the given file.
+    A solution to question 2 that seeks to find the sum of the contents of the
+    given file.
     :param input_file_name: the data file
     :return The sum of the data in the given data file is returned.
     """
@@ -66,23 +70,28 @@ def question_2() -> None:
     Demonstrate use of question 2 solution.
     :return None
     """
-    print("sum_data_in_file(\"q2.dat\") = {}".format(sum_data_in_file(get_data_file_name("q2.dat"))))
+    print("sum_data_in_file(\"q2.dat\") = {}"
+          .format(sum_data_in_file(get_data_file_name("q2.dat"))))
 
 
 def get_filtered_list(data: list) -> list:
     """
     The answer to question #3 is the expression following the return statement.
     :param data the list to be filtered
-    :return A list of the values in the given list that are greater than 3 is returned.
+    :return A list of the values in the given list that are greater than 3 is
+    returned.
     """
     return list(filter(lambda x: x > 3, data))
 
+
 def question_3() -> None:
     """
-    Using the filter function and a lambda argument, write an expression that produces 
-    a list of the values in some list named data that are larger than 3.
+    Using the filter function and a lambda argument, write an expression that
+    produces a list of the values in some list named data that are larger than
+    3.
     """
-    print("get_filtered_list(range(11)) = {}".format(get_filtered_list(range(11))))
+    print("get_filtered_list(range(11)) = {}"
+          .format(get_filtered_list(range(11))))
 
 
 def draw_robot_head(turtle: Turtle, length: int) -> None:
