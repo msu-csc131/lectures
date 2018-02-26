@@ -1,5 +1,8 @@
 ## Lectures
 
+* Mon 26 Feb
+    * Continue with Chapter 9 
+        * [student.py](../csc131/ch09/student.py)
 * Fri 23 Feb
     * Go over Exam 1 -- see links below
     * [Begin Chapter 9 - Design with Classes](https://livemissouristate.sharepoint.com/:p:/r/sites/csc131/_layouts/15/Doc.aspx?sourcedoc=%7B3A1DA170-F5B8-4966-AA45-779E7EB685FF%7D&file=ch09.pptx&action=edit&mobileredirect=true)
