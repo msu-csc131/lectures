@@ -1,8 +1,10 @@
 ## Lectures
 
 * Mon 26 Feb
-    * Continue with Chapter 9 
-        * [student.py](../csc131/ch09/student.py)
+    * Continue with Chapter 9 (slides 8-26)
+        * [Student](../csc131/ch09/student.py) class (first class; lifetime of objects)
+        * [Rational](../csc131/ch09/rational.py) class (operator overloading)
+        * [SavingsAccount](../csc131/ch09/savings_account.py) class (class variables)
 * Fri 23 Feb
     * Go over Exam 1 -- see links below
     * [Begin Chapter 9 - Design with Classes](https://livemissouristate.sharepoint.com/:p:/r/sites/csc131/_layouts/15/Doc.aspx?sourcedoc=%7B3A1DA170-F5B8-4966-AA45-779E7EB685FF%7D&file=ch09.pptx&action=edit&mobileredirect=true)
