@@ -115,30 +115,19 @@ def draw_robot_head(turtle: Turtle, length: int) -> None:
     turtle.penup()
     turtle.forward(ear_length)
     turtle.pendown()
-    turtle.forward(face_length)
-    turtle.left(90)
-    turtle.forward(ear_gap)
-    turtle.right(90)
-    turtle.forward(ear_length)
-    turtle.left(90)
-    turtle.forward(ear_height)
-    turtle.left(90)
-    turtle.forward(ear_length)
-    turtle.right(90)
-    turtle.forward(ear_gap)
-    turtle.left(90)
-    turtle.forward(face_length)
-    turtle.left(90)
-    turtle.forward(ear_gap)
-    turtle.right(90)
-    turtle.forward(ear_length)
-    turtle.left(90)
-    turtle.forward(ear_height)
-    turtle.left(90)
-    turtle.forward(ear_length)
-    turtle.right(90)
-    turtle.forward(ear_gap)
-    # hide the turtle to see the robot head
+    for i in range(2):
+        turtle.forward(face_length)
+        turtle.left(90)
+        turtle.forward(ear_gap)
+        turtle.right(90)
+        turtle.forward(ear_length)
+        turtle.left(90)
+        turtle.forward(ear_length)
+        turtle.left(90)
+        turtle.forward(ear_length)
+        turtle.right(90)
+        turtle.forward(ear_gap)
+        turtle.left(90)
     turtle.hideturtle()
     # list for click event to close the turtle graphics system
     win.exitonclick()
@@ -154,32 +143,33 @@ def question_4() -> None:
 
 
 class TemperatureConverter(EasyFrame):
-    """A termperature conversion program."""
+    """A temperature conversion program."""
+
     def __init__(self):
         """Sets up the window and widgets."""
         EasyFrame.__init__(self, title="Temperature Converter")
 
         # Label and field for Celsius
         self.addLabel(text="Celsius", row=0, column=0)
-        self.celsiusField = self.addFloatField(value=0.0, row=1, column=0,
-                                               precision=2)
+        self.celsius_field = self.addFloatField(value=0.0, row=1, column=0,
+                                                precision=2)
 
         # Label and field for Fahrenheit
         self.addLabel(text="Fahrenheit", row=0, column=1)
-        self.fahrField = self.addFloatField(value=32.0, row=1, column=1,
-                                            precision=2)
+        self.fahrenheit_field = self.addFloatField(value=32.0, row=1, column=1,
+                                                   precision=2)
 
         # Celsius to Fahrenheit button
-        self.addButton(text=">>>>", row=2, column=0, command=self.computeFahr)
+        self.addButton(text=">>>>", row=2, column=0, command=self.compute_fahrenheit)
 
         # Fahrenheit to Celsius button
         self.addButton(text="<<<<", row=2, column=1,
-                       command=self.computeCelsius)
+                       command=self.compute_celsius)
 
-    def computeCelsius():
+    def compute_celsius(self):
         pass
 
-    def computeFahr():
+    def compute_fahrenheit(self):
         pass
 
 
