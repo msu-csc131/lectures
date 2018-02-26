@@ -1,6 +1,6 @@
 ## CSC131 Lecture Material
 
-See the [README](docs/README.md) for day-to-day material links.
+See the [Lecture Outline](docs/README.md) for day-to-day material links.
 
 ### Version History
 
