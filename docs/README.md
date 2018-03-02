@@ -1,10 +1,14 @@
 ## Lectures
 
+* Fri 02 Mar
+    * Continue with Chapter 9 (slides 32-40)
+        * Playing Cards (Card, Deck)
+        * Building a new structure (Grid)
 * Wed 28 Feb
     * Continue with Chapter 9 (slides 27-31)
-        * Putting Accounts into a Bank
-        * Storing/loading objects to/from disk with [pickle](https://docs.python.org/3/library/pickle.html)
-        * `try-except` statement
+        * Putting Accounts into a [Bank](../csc131/ch09/bank.py)
+        * Storing/loading objects to/from disk with [pickle](https://docs.python.org/3/library/pickle.html); (see the [Bank](../csc131/ch09/bank.py) class)
+        * `try-except` statement; (see the [Bank](../csc131/ch09/bank.py) class)
 * Tue 27 Feb
     * [Lab 5 - Geometric Object](https://github.com/msu-csc131/lab05/)
 * Mon 26 Feb
