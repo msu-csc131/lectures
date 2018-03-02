@@ -1,7 +1,7 @@
 ## Lectures
 
 * Tue 27 Feb
-    * [Lab 5 - Geometric Object](https://github.com/msu-csc131/lab05/settings)
+    * [Lab 5 - Geometric Object](https://github.com/msu-csc131/lab05/)
 * Mon 26 Feb
     * Continue with Chapter 9 (slides 8-26)
         * [Student](../csc131/ch09/student.py) class (first class; lifetime of objects)
