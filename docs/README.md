@@ -1,5 +1,10 @@
 ## Lectures
 
+* Wed 28 Feb
+    * Continue with Chapter 9 (slides 27-31)
+        * Putting Accounts into a Bank
+        * Storing/loading objects to/from disk with [pickle](https://docs.python.org/3/library/pickle.html)
+        * `try-except` statement
 * Tue 27 Feb
     * [Lab 5 - Geometric Object](https://github.com/msu-csc131/lab05/)
 * Mon 26 Feb
