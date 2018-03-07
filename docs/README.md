@@ -1,5 +1,17 @@
 ## Lectures
 
+* Thu 08 Mar -- Special guest lecture/presentation: Ariane Gorin, 9:30-10:30 PSU Theature
+* Wed 07 Mar
+    * Encryption
+        * [grid.py](../csc131/ch09/encryption/grid.py)
+        * [encryption.py](../csc131/ch09/encryption/encryption.py)
+        * [matrixcanvas.py](../csc131/ch09/encryption/matrixcanvas.py)
+        * [encryptionwithgui.py](../csc131/ch09/encryption/encryptionwithgui.py)
+* Tue 06 Mar
+    * Lab 6: BMI Calculator
+* Mon 05 Mar
+    * Discuss Lab 6
+    * Polymorphism
 * Fri 02 Mar
     * Continue with Chapter 9 (slides 32-40)
         * Playing Cards (Card, Deck)
