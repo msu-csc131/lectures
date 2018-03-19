@@ -1,5 +1,13 @@
 ## Lectures
 
+* Mon 19 Mar -- Introduction to C++
+    * [Chapter 1: Introduction to Computers and Programming](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/Chapter01.ppt); slides 21-30
+    * [Chapter 2: Introduction to C++](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/Chapter02.ppt); slides 1-19
+* Fri 16 Mar -- Spring Break, no classes
+* Wed 14 Mar -- Spring Break, no classes
+* Tue 13 Mar -- Spring Break, no lab
+* Mon 12 Mar -- Spring Break, no classes
+* Fri 09 Mar -- Preview/peek Cygwin tools and setup of C++ development environment
 * Thu 08 Mar -- Special guest lecture/presentation: Ariane Gorin, 9:30-10:30 PSU Theature
 * Wed 07 Mar
     * Encryption
