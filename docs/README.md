@@ -1,5 +1,7 @@
 ## Lectures
-* Fri 23 Mar -- Class canceled.
+* Fri 23 Mar -- Class canceled. Review the following programs:
+    * [pr1-01.cpp](../csc131/cpp/ch01/pr1-01.cpp)
+    * [pr1-02.cpp](../csc131/cpp/ch01/pr1-02.cpp)
 * Wed 21 Mar -- [Chapter 2: Introduction to C++](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/); slides 20-42
 * Mon 19 Mar -- Introduction to C++
     * [Chapter 1: Introduction to Computers and Programming](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/Chapter01.ppt); slides 21-30
