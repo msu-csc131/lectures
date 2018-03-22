@@ -1,5 +1,6 @@
 ## Lectures
-
+* Fri 23 Mar -- Class canceled.
+* Wed 21 Mar -- [Chapter 2: Introduction to C++](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/); slides 20-42
 * Mon 19 Mar -- Introduction to C++
     * [Chapter 1: Introduction to Computers and Programming](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/Chapter01.ppt); slides 21-30
     * [Chapter 2: Introduction to C++](https://livemissouristate.sharepoint.com/sites/csc131/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcsc131%2FShared%20Documents%2FPPTS%2FC%2B%2B%20Textbook/Chapter02.ppt); slides 1-19
